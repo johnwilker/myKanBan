@@ -44,6 +44,7 @@
     </nav>
     <main>
       <div class="inner">
+        
         <section class="title-avatar">
           <h1>
             My KanBan 
@@ -51,10 +52,63 @@
           </h1>
           <img src="https://github.com/johnwilker.png" alt="avatar">
         </section>
+
+        <section class="filter">
+          <button>
+            <ion-icon name="filter-outline"></ion-icon>
+            <span>Filter</span>
+          </button>
+          <div class="input-wrapper">
+            <ion-icon name="search-outline"></ion-icon>
+            <input 
+              type="text" 
+              placeholder="Search for cards, subjects or managers...">
+          </div>
+        </section>
+
+        <!-- Section KanBan -->
+        <section class="kanban">
+
+          <div class="todo">
+            <h2>To do</h2>
+            
+            <div class="cards">
+              <div class="card">
+                <h3>#BoraCodar a kanban 🙋‍♂️</h3>
+                <p>New challenge of Rocketseat #boraCodar, where you should build a KanBan table</p>
+                <div class="tags">
+                  <span>Rocketseat</span>
+                  <span>Challenge</span>
+                </div>
+              </div>
+
+              <div class="card">
+                <h3>Keep the ofensive 🔥</h3>
+                <p>Keep my activity in Rocketseat platform to not lose my ofensive</p>
+                <div class="tags">
+                  <span>Rocketseat</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="doing">
+            <h2>Doing</h2>
+          </div>
+
+          <div class="done">
+            <h2>Done</h2>
+            
+          </div>
+          
+        </section>
+
       </div>
     </main>
   </div>
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script> 
+  <script src="./main.js"></script>
 </body>
 </html>
