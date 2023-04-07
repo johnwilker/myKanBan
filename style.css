@@ -211,3 +211,19 @@ section.kanban h2 {
   gap: 2.4rem;
 }
 
+.highlight {
+  background-color: #8c69ca;
+}
+
+.card, .dropzone {
+  transition: 300ms;
+}
+
+.over {
+  background-color: #3437ce;
+}
+
+.is-dragging {
+  cursor: move;
+  opacity: .3;
+}
