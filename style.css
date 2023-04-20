@@ -216,11 +216,12 @@ section.kanban h2 {
 }
 
 .card, .dropzone {
-  transition: 300ms;
+  transition: 500ms;
 }
 
 .over {
-  background-color: #3437ce;
+  background-color: #2d30d3;
+  border-radius: .8rem;
 }
 
 .is-dragging {

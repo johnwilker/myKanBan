@@ -5,14 +5,14 @@ function log(message) {
 
 /* Cutting line bigger than 15 letters */
 
-const text = document.querySelectorAll(".card p");
-const limit = 15;
+// const text = document.querySelectorAll(".card p");
+// const limit = 15;
 
-for ( let p of text ) {
-  const aboveLimit = p.innerText.length > limit;
-  const dotsOrEmpty = aboveLimit ? "..." : "";
-  p.innerText = p.innerText.substring(0, limit) + dotsOrEmpty;
-}
+// for ( let p of text ) {
+//   const aboveLimit = p.innerText.length > limit;
+//   const dotsOrEmpty = aboveLimit ? "..." : "";
+//   p.innerText = p.innerText.substring(0, limit) + dotsOrEmpty;
+// }
 
 /* Drag and Drop Zone*/
 
@@ -56,7 +56,7 @@ function dragenter() {
 function dragover() {
   // log("CARD: Over dropzone");
   this.classList.add('over');
-  const cardBeingDragged = document.querySelector('is-dragging');
+  const cardBeingDragged = document.querySelector('.is-dragging');
 
   this.appendChild(cardBeingDragged)
 }
